@@ -9,6 +9,7 @@ function findMaxProfit(arr){
             let profit=arr[i]-minPrice;
             maxProfit=Math.max(maxProfit,profit);
         }
+        
     }
     return maxProfit;
 }
